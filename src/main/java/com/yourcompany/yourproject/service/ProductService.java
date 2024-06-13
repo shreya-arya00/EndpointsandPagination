@@ -16,6 +16,4 @@ public class ProductService {
     public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
-
-    // Add more service methods as needed
 }
