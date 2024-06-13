@@ -26,6 +26,4 @@ public class ProductController {
         Product createdProduct = productRepository.save(product);
         return ResponseEntity.ok(createdProduct);
     }
-
-    // Add more CRUD operations and endpoints as needed
 }
